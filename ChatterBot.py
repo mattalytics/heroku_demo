@@ -10,10 +10,10 @@ access_token = "839621358724198402-dzdOsx2WWHrSuBwyNUiqSEnTivHozAZ"
 access_token_secret = "dCZ80uNRbFDjxdU2EckmNiSckdoATach6Q8zb7YYYE5ER"
 
 # Setup Tweepy API Authentication
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
-api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
-
+#auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+#auth.set_access_token(access_token, access_token_secret)
+#api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
+print('Yes')
 
 # Create a function that tweets
 # CODE GOES HERE
