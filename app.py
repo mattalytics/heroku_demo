@@ -15,5 +15,7 @@ def homepage():
         {'results':randoms}
     )
 
+    #If you wanted to return HTML instead, simply `return` a string with markup
+    
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)
