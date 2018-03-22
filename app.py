@@ -12,7 +12,7 @@ def homepage():
     randoms = [random.random() for i in range(100)]
 
     return jsonify(
-        {'results':randoms}
+        {'results':random}
     )
 
     #If you wanted to return HTML instead, simply `return` a string with markup
