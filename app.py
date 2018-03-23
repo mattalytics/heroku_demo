@@ -11,11 +11,13 @@ app = Flask(__name__)
 def homepage():
     randoms = [random.random() for i in range(100)]
 
-    return jsonify(
-        {'results':randoms}
-    )
+    #return jsonify(
+    #    {'results':randoms}
+    #)
 
     #If you wanted to return HTML instead, simply `return` a string with markup
+    
+    return "<b>Rad</b>"
     
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True)

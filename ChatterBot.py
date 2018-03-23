@@ -15,4 +15,6 @@ auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
-print(api.user_timeline('realdonaldtrump'))
+quotes = []
+
+#add your quote generation code here
